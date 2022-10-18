@@ -2,7 +2,7 @@ const userData = {
   githubUserName: 'EllaSvete',
   name: 'Ella Svete',
   designation: 'Full-Stack Developer',
-  avatarUrl: '/avatar.png',
+  avatarUrl: '/../public/avatar.jpg',
   email: 'ella.svete@gmail.com',
   address: 'Olympia, WA',
   projects: [
@@ -14,17 +14,17 @@ const userData = {
     {
       title: "Smells Like Devs Cooking",
       link: "https://smells-like-devs-cooking-frontend-rho.vercel.app/",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "/../images/devscooking.png",
     },
     {
       title: 'Record Bin',
       link: 'https://reccrdbin.netlify.app/',
-      imgUrl: '/placeholdertech.png',
+      imgUrl: '/../images/recordbin.png',
     },
   ],
   about: {
     title:
-    "I'm a software developer and craftsperson who loves building things an problem solving solutions.",
+    "I'm a software developer and craftsperson who loves building things an problem solving solutions",
     description: [
       "I've been developing full-stack applications for nearly a year now. I have a background in music and jewelry design and I have been inspired by finding the parallels between my background and the tech industry."
     ]
@@ -54,8 +54,11 @@ const userData = {
   resumeUrl:
   "https://docs.google.com/document/d/1eRZCjVwB5tOfTOoDXAgK8pDkTpueBhnnxKsSyIG2vaM/edit?usp=sharing",
   socialLinks: {
+    instagram: "https://www.instagram.com/e.svete.collections/",
+    twitter: "https://twitter.com/",
     linkedIn: "https://www.linkedin.com/in/ellasvete/",
     github: "https://github.com/EllaSvete",
+    facebook: "https://facebook.com",
   },
 };
 

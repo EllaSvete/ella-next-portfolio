@@ -74,10 +74,16 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div>
-              <Image src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Icon of Javascript" className="h-20 w-20 mx-4 my-4"/>
+              <Image 
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" 
+              alt="javascript" 
+              width={100} 
+              height={20}/>
               <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4" alt="icon of html"/>
+                width={100} 
+                height={20} 
+                alt="Html"/>
             </div>
           </div>
         </div>
