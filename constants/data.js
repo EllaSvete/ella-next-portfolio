@@ -9,17 +9,17 @@ const userData = {
     {
       title: "Portfolio",
       link: "https://ellasveteportfolio",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "",
     },
     {
       title: "Smells Like Devs Cooking",
       link: "https://smells-like-devs-cooking-frontend-rho.vercel.app/",
-      imgUrl: "/devscooking.png",
+      imgUrl: "/placeholdertech.png",
     },
     {
       title: 'Record Bin',
       link: 'https://reccrdbin.netlify.app/',
-      imgUrl: '/recordbin.png',
+      imgUrl: '/placeholdertech.png',
     },
   ],
   about: {
