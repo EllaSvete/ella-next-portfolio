@@ -2,24 +2,24 @@ const userData = {
   githubUserName: 'EllaSvete',
   name: 'Ella Svete',
   designation: 'Full-Stack Developer',
-  avatarUrl: '/../public/avatar.jpg',
+  avatarUrl: '/avatar.jpg',
   email: 'ella.svete@gmail.com',
   address: 'Olympia, WA',
   projects: [
-    {
-      title: "Portfolio",
-      link: "https://ellasveteportfolio",
-      imgUrl: "",
-    },
+    // {
+    //   title: "Portfolio",
+    //   link: "https://ellasveteportfolio",
+    //   imgUrl: "",
+    // },
     {
       title: "Smells Like Devs Cooking",
       link: "https://smells-like-devs-cooking-frontend-rho.vercel.app/",
-      imgUrl: "/../images/devscooking.png",
+      imgUrl: "/devscooking.png",
     },
     {
       title: 'Record Bin',
       link: 'https://reccrdbin.netlify.app/',
-      imgUrl: '/../images/recordbin.png',
+      imgUrl: '/recordbin.png',
     },
   ],
   about: {
