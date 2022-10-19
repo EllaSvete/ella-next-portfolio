@@ -1,4 +1,13 @@
 import React from 'react';
+import python from '../images/python.png';
+import github from '../images/github.png';
+import git from '../images/git.png';
+import next from '../images/next-js.png';
+import js from '../images/js.png';
+// import netlify from '../images/netlify.png';
+import react from '../images/react.png';
+import docker from '../images/docker.png';
+import django from '../images/django.png';
 
 import userData from '../constants/data';
 import Image from 'next/image';
@@ -74,16 +83,46 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div>
-              <Image 
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" 
-              alt="javascript" 
-              width={100} 
-              height={20}/>
               <Image
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                src={js}
+                width={100}
+                height={20}
+                alt="javascript"/>
+              <Image
+                src={python}
                 width={100} 
                 height={20} 
-                alt="Html"/>
+                alt="python"/>
+              <Image
+                src={django}
+                width={100} 
+                height={20} 
+                alt="django"/>
+              <Image
+                src={docker}
+                width={100} 
+                height={20} 
+                alt="docker"/>
+              <Image
+                src={react}
+                width={100} 
+                height={20} 
+                alt="react"/>
+              <Image
+                src={next}
+                width={100} 
+                height={20} 
+                alt="next"/>
+              <Image
+                src={git}
+                width={100} 
+                height={20} 
+                alt="git"/>
+              <Image
+                src={github}
+                width={100} 
+                height={20} 
+                alt="github"/>
             </div>
           </div>
         </div>
